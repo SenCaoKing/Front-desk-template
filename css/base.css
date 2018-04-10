@@ -1,0 +1,182 @@
+/*---------------case---------------*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑;
+}
+ul, li {
+    lisy-style: none;
+}
+body {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    font-family: 黑体, Arial, SimHei, ArialMT;
+    color: #333;
+}
+a, button {
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    outline: medium;
+    border: none;
+}
+.f1 {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.center {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.blue {
+    overflow: hidden;
+    margin-top: 15px;
+}
+.clearit {
+    clear: both;
+}
+input, select {
+    outline: medium;
+    border: none;
+}
+textarea {
+    outline: medium;
+}
+/*---------------头部---------------*/
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #01002F;
+    position: relative;
+    z-index: 99;
+}
+.header_top {
+    height: 25px;
+    padding-top: 7px;
+}
+.header_top_left {
+    width: 400px;
+    float: left;
+}
+.header_top_left a {
+    display: inline-block;
+    width: 75px;
+    height: 23px;
+    margin-right: 45px;
+    color: #fff;
+    border: 1px solid #999;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 23px;
+}
+.header_top_right {
+    color: #fff;
+    float: right;
+}
+.header_top_right a {
+    color: #fff;
+}
+.header_top_right .kongzhi {
+    background: url(../images/img.png) -79px -16px no-repeat;
+    padding-left: 25px;
+    margin-right: 60px;
+    display: block;
+    float: right;
+}
+.header_top_right .login {
+    float: right;
+    display: block;
+}
+.header_bottom {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    z-index: 2147483651;
+}
+.logo {
+    width: 78px;
+    height: 80px;
+    background: url(../images/LOGO.png) center bottom;
+    margin-left: 45px;
+    float: left;
+}
+.nav {
+    width: 860px;
+}
+.log {
+    width: 1200px;
+}
+.log li {
+    width: 165px;
+    height: 78px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.log li a {
+    padding-top: 35px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    width: 186px;
+    height: 85px;
+    display: block;
+    text-shadow: 8px 0 5px #000;
+    position: absolute;
+    left: 0;
+    top: -23px;
+}
+.log li a span {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.shouye {
+    background: url(../images/ccc.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.jiaoyi {
+    float: right;
+    margin-right: 15px;
+}
+.logshare:hover #now {
+    display: block;
+}
+#now li:hover {
+    background-color: #0b1044;
+}
+#now {
+    width: 150px;
+    text-align: center;
+}
+#now li a {
+    width: 150px;
+    height: 100%;
+    padding: 0;
+    position: initial;
+    line-height: 41px;
+}
+.log .logshare ul {
+    width: 155px;
+    position: absolute;
+    top: 75px;
+    background-image: #01002f;
+    z-index: 4;
+    left: 18px;
+    display: none;
+}
+.log .logshare ul li {
+    height: 41px;
+    width: 150px;
+    background-color: #01002f; 
+}
+.log .logshare ul li a {
+    color: #fff;
+}
+
+
