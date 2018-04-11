@@ -146,6 +146,30 @@
         </div>
     </div>
 
-    <script ></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/unslider.min.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+    <script type="text/javascript" src="js/tab_change.js"></script>
+    <script type="text/javascript" src="js/fixed.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(e){
+            var unslider04 = $('#b04').unslider({
+                dots: true
+            }),
+            data04 = unslider04.data('unslider');
+            $('.unslider-arrow04').click(function(){
+                var fn = this.className.aplit(' ')[1];
+                data04[fn]();
+            });
+
+            // 效果代码
+            $('.q_tab').on('click','a',function(e){
+                e.preventDefault();
+                $(this).addClass('active').siblings('a').removeClass('active');
+                var i=$(this).index();
+                $('.info.clothes>ul').eq(i).addClass('active').siblings('ul').removeClass('active');
+            })
+        });
+    </script>
 </body>
 </html>
